@@ -29,6 +29,7 @@ p {
 }
 .classspe {
   color: black;
+  font-size:2vw;
 }
 
 /* Media Queries */
@@ -45,6 +46,23 @@ p {
   .w3-half {
     width: 100%;
   }
+}
+  .container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 </style>
@@ -63,7 +81,9 @@ p {
       <div class="w3-half">
         <h2 class="classspe"> <b> Belhasnat, Tidjelabine</b></h2>
       </div>
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12795.357525743591!2d3.4829527!3d36.7023974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e678979f500f3%3A0x41a52d899ae8f983!2sSalle%20des%20f%C3%AAtes%20serine%20Katia!5e0!3m2!1sfr!2sdz!4v1693413272279!5m2!1sfr!2sdz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    <div class="container">
+    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12795.357525743591!2d3.4829527!3d36.7023974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e678979f500f3%3A0x41a52d899ae8f983!2sSalle%20des%20f%C3%AAtes%20serine%20Katia!5e0!3m2!1sfr!2sdz!4v1693413272279!5m2!1sfr!2sdz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </div>
   </div>
 </header>
 
