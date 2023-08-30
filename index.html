@@ -7,19 +7,46 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
+body, h1, h2 {
+  font-family: "Raleway", sans-serif;
+}
+body, html {
+  height: 100%;
+}
+p {
+  line-height: 2;
+}
 .bgimg, .bgimg2 {
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image: url("flowers-frame-ornament-shabby-428192e5731d3ccaa546751e83f24359.jpg")}
-.bgimg2 {background-image: url("/w3images/flowers.jpg")}
-.classspe {
-    color : black;
+.bgimg {
+  background-image: url("flowers-frame-ornament-shabby-428192e5731d3ccaa546751e83f24359.jpg");
 }
+.bgimg2 {
+  background-image: url("/w3images/flowers.jpg");
+}
+.classspe {
+  color: black;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .w3-display-middle {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .w3-display-middle {
+    padding: 10px;
+  }
+  .w3-half {
+    width: 100%;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -36,15 +63,11 @@ p {line-height: 2}
       <div class="w3-half">
         <h2 class="classspe"> <b> Belhasnat, Tidjelabine</b></h2>
       </div>
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12795.357525743591!2d3.4829527!3d36.7023974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e678979f500f3%3A0x41a52d899ae8f983!2sSalle%20des%20f%C3%AAtes%20serine%20Katia!5e0!3m2!1sfr!2sdz!4v1693413272279!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12795.357525743591!2d3.4829527!3d36.7023974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e678979f500f3%3A0x41a52d899ae8f983!2sSalle%20des%20f%C3%AAtes%20serine%20Katia!5e0!3m2!1sfr!2sdz!4v1693413272279!5m2!1sfr!2sdz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
   </div>
 </header>
 
-
-
-
-
-<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+<div class="w3-hide-small" style="margin-bottom:32px"></div>
 
 </body>
 </html>
