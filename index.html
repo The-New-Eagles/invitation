@@ -20,20 +20,18 @@ p {
   line-height: 2;
 }
 
-.bgimg, .bgimg2 {
+.bgimg{
   min-height: 100%;
   background-position: center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .bgimg {
   background-image: url("flowers-frame-ornament-shabby-428192e5731d3ccaa546751e83f24359.jpg");
-  background-repeat: repeat;
+
 }
-.bgimg2 {
-  background-image: url("/w3images/flowers.jpg");
-  background-repeat: repeat;
-}
+
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -69,10 +67,11 @@ p {
 
 </style>
 </head>
-<body>
+
+<body class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
 
 <!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+<header >
   <div class="w3-display-middle w3-text-white w3-center">
     <div class="container">
     <h1 ><b>Monsieur et Madame MERCHICHI </b></h1>
